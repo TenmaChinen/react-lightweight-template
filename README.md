@@ -23,7 +23,6 @@ project
 - npm init -y     ( Create package.json to manage dependencies )
 
 
-
 - Edit the `package.json` adding the `start` key value
   ```json
   {
