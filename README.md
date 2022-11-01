@@ -25,16 +25,16 @@ project
 
 
 - Edit the `package.json`
-	```json
-	{
-		"main": "webpack.config.js",
-		"scripts": {
-			"test": "echo \"Error: no test specified\" && exit 1",
-			// ADD THIS
-			"start": "webpack serve --config webpack.config.js" 
-		},
-	}
-	```
+  ```json
+  {
+    "main": "webpack.config.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      // ADD THIS
+      "start": "webpack serve --config webpack.config.js" 
+    },
+  }
+  ```
 
 - Install the dependencies:
 
