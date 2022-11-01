@@ -24,13 +24,12 @@ project
 
 
 
-- Edit the `package.json`
+- Edit the `package.json` Add the start key value
   ```json
   {
     "main": "webpack.config.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      // ADD THIS
       "start": "webpack serve --config webpack.config.js" 
     },
   }
