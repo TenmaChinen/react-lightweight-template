@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+// REACT 18
+
 import { createRoot } from "react-dom/client";
+import React, { Component } from "react";
 
 // Class Based Component
 
-class ClassComponent extends Component{
+class App extends Component{
 	constructor(props){
 		super(props);
 	}
@@ -16,17 +18,14 @@ class ClassComponent extends Component{
 }
 
 // Function Based Component
-function FunctionComponent(){
+/*function App(){
 	return (
 		<h1>Function Based Component</h1>
 		);
-}
+}*/
 
 const app = document.getElementById("app");
 const root = createRoot(app);
 
-root.render(<ClassComponent />); // OK
-// root.render(ClassComponent()); // NO ( it's a class )
-
-// root.render(<FunctionComponent />); // OK
-// root.render(FunctionComponent()); // OK
+root.render(<ClassComponent />);
+//root.render(<FunctionComponent />);
