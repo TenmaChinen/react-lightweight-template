@@ -24,7 +24,7 @@ project
 
 
 
-- Edit the `package.json` Add the start key value
+- Edit the `package.json` adding the `start` key value
   ```json
   {
     "main": "webpack.config.js",
