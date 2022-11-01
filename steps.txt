@@ -1,0 +1,13 @@
+app-from-scratch
+├── src
+│   ├── index.html
+│   └── index.js
+│
+├── .babelrc
+├── webpack.config.js
+│
+├── package <= ( Created by npm init -y )
+├── package-lock.json ( uknown )
+└── node_modules ( after installing libraries )
+
+npm init -y     ( Create package.json to manage dependencies )
