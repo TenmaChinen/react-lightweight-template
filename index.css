@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100vh;
+}
+
+nav{
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+tr{
+  background-color: rgb(48, 48, 48);
+}
+
+th,td{
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+th{
+  background-color: rgb(12, 12, 12);
+}
+
+tr:nth-child(even){
+  background-color: rgb(74, 74, 74);
+}
+
+.btn{
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.btn-del{
+  background-color: rgb(233, 56, 56);
+}
+
+.btn-inc{
+  background-color: rgb(62, 233, 56);
+}
+
+.btn-dec{
+  background-color: rgb(233, 195, 56);
+}
+
+.btn-dec:disabled{
+  background-color: rgb(124, 124, 124);
+}
+
+
+.counter{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+}

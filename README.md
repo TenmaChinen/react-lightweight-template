@@ -28,7 +28,6 @@ project
   {
     "main": "webpack.config.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
       "start": "webpack serve --config webpack.config.js" 
     },
   }

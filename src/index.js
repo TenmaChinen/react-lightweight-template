@@ -2,6 +2,7 @@
 
 import { createRoot } from "react-dom/client";
 import React, { Component } from "react";
+import "./index.css";
 
 // Class Based Component
 
