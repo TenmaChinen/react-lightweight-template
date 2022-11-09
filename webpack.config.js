@@ -42,6 +42,12 @@ module.exports = {
   //       options: { modules: true }
   //     }, "sass-loader"]
   // },
-]},
- plugins: [htmlPlugin]
+  ]},
+
+  plugins: [htmlPlugin],
+
+  /* This needed to make BrowserRouter work */
+  devServer: {
+    historyApiFallback: true,
+  }
 };
