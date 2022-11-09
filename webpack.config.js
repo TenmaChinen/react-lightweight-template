@@ -18,7 +18,16 @@ module.exports = {
   {
    test: /\.css$/,
    use: ["style-loader", "css-loader"]
-  }
+  },
+  {
+  // To Support Import Styles as Modules from styles import "./index.css or scss"
+  // test: /\.s?css$/i,
+  // use: [
+  //   "style-loader", {
+  //   loader:"css-loader",
+  //   options: { modules: true }
+  //   }, "sass-loader"]
+  // },
 ]},
  plugins: [htmlPlugin]
 };
